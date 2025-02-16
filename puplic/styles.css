@@ -6,6 +6,10 @@ body {
   padding: 0px;
   position: relative;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 html {
   width: 100%;
   font-family: "Roboto", sans-serif;
@@ -268,9 +272,8 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-
 }
-.top-cont{
+.top-cont {
   mix-blend-mode: difference;
   color: white;
 }
@@ -564,7 +567,7 @@ header {
   padding-top: 36px;
   padding-bottom: 56px;
 }
-.container{
+.container {
   width: 60%;
 }
 
@@ -574,7 +577,6 @@ header {
   align-items: center;
   justify-content: center;
   height: fit-content;
-  gap: 10px;
   padding-bottom: 64px;
 }
 .secondh1 {
@@ -585,6 +587,7 @@ header {
   color: rgba(0, 0, 0, 1);
   margin: 0;
   padding: 0;
+  padding-bottom: 6px;
 }
 #money {
   font-family: Roboto;
@@ -901,7 +904,7 @@ footer {
   height: fit-content;
   background: rgba(26, 26, 64, 1);
   margin-top: 96px;
-  padding:  30px 64px;
+  padding: 30px 64px;
   box-sizing: border-box;
   padding-top: 96px;
 }
@@ -1149,7 +1152,6 @@ footer {
   .text-content {
     padding-left: 30px;
     width: 50%;
-
   }
   .thirddiv {
     flex-direction: column;
@@ -1179,7 +1181,7 @@ footer {
     flex-direction: column;
     gap: 40px;
   }
-   .footercontainer input{
+  .footercontainer input {
     width: 100%;
   }
 }
@@ -1205,7 +1207,7 @@ footer {
     flex-direction: column;
     gap: 40px;
   }
-  .container{
+  .container {
     width: 100%;
   }
   .text-content {
@@ -1255,7 +1257,7 @@ footer {
     height: fit-content;
   }
   .section4 {
-    padding: 94px 10px 30px;
+    padding: 44px 10px 30px;
   }
 
   .menu-icon,
@@ -1282,7 +1284,7 @@ footer {
   .thirddiv {
     gap: 80px;
     height: 900px;
-    padding: 40px 10px;
+    padding: 0px 10px;
   }
   .mainimg img {
     width: 500px;
@@ -1300,14 +1302,14 @@ footer {
     right: 0px;
     height: 380px;
   }
-  .hero-page{
+  .hero-page {
     padding-bottom: 20px;
   }
   .atm {
     position: relative;
     height: 300px;
   }
-  .section1{
+  .section1 {
     padding-top: 50px;
   }
 }
@@ -1403,7 +1405,7 @@ footer {
     text-align: left;
     color: rgba(250, 88, 182, 1);
   }
-  
+
   #second h1 {
     font-family: Roboto;
     font-size: 42px;
@@ -1468,7 +1470,7 @@ footer {
     padding: 20px;
     box-sizing: border-box;
   }
-  .xm{
+  .xm {
     right: 0;
   }
   .forthimg2 {
@@ -1487,19 +1489,19 @@ footer {
     padding: 16px;
     box-sizing: border-box;
   }
-  footer{
+  footer {
     margin: 0;
     width: 100%;
-    padding:  30px 24px;
+    padding: 30px 24px;
     box-sizing: border-box;
   }
-  .input3{
+  .input3 {
     width: 90% !important;
   }
-  .flex1{
+  .flex1 {
     gap: 6px;
   }
-  .logo img{
+  .logo img {
     width: 44px;
     height: 44px;
   }
@@ -1513,6 +1515,10 @@ footer {
     font-size: 14px;
   }
 
+  .thirddiv {
+    gap: 80px;
+    height: 700px;
+  }
   .menu-icon,
   .nav-icon {
     width: 18px;
@@ -1533,7 +1539,7 @@ footer {
     height: 40px;
   }
   .mainimg img {
-    width: 250px;
+    width: 290px;
   }
   .mainimg .im1 {
     position: absolute;
@@ -1582,7 +1588,7 @@ footer {
   .forthimg {
     height: 290px;
   }
-  form{
+  form {
     width: 100%;
     padding: 0px 10px;
     box-sizing: border-box;
@@ -1593,20 +1599,60 @@ footer {
     padding: 16px;
     box-sizing: border-box;
   }
-  .fifth h3{
+  .fifth h3 {
     font-size: 30px;
   }
-  .section5{
+  .section5 {
     padding: 0px 10px 40px;
   }
-  .footerp{
+  .footerp {
     font-size: 20px;
   }
-  .flex a{
+  .flex a {
     font-size: 20px;
   }
-  .finp{
+  .finp {
     font-size: 20px;
+  }
+  #h1div {
+    gap: 0px;
+  }
+  #money,
+  .secondh1 {
+    font-family: Roboto;
+    font-size: 30px;
+  }
+  .secondh4 {
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+  .pageh1 {
+    font-size: 30px;
+  }
+  .page1 h2 {
+    font-size: 20px;
+  }
+  .page {
+    font-size: 18px;
+  }
+  .thirdh1 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .thirthp {
+    font-size: 20px;
+  }
+  .fourthh1{
+    font-size: 26px;
+    line-height: 34.8px;
+    padding: 0;
+  }
+  .fourthp{
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .fourthdiv{
+    height: 650px;
   }
 }
 
@@ -1630,20 +1676,22 @@ footer {
     width: 100%;
   }
   .mainimg img {
-    width: 200px;
+    width: 280px;
   }
   .mainimg .im1 {
     position: absolute;
     top: 0;
-    right: 55px;
-    top: 145px;
+    right: 110px;
+    top: 150px;
+    height: 100px;
+    width: 220px;
   }
 
   .mainimg .im2 {
     position: absolute;
     top: 0;
     right: 0px;
-    height: 200px;
+    height: 250px;
   }
   .forthimg2 {
     left: 20%;
